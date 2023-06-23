@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(139deg, #121212 0%, #1E3A8A 100%);
+}
+h1{
+    color: white;
+}
+
+.cabeçalho{
+    display: flex; 
+    align-items: center; 
+}
+
+.cabeçalho h1{
+    padding: auto;
+}
+
+.cabeçalho a{
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace; 
+    align-items: right;    
+}
+
+.corpo{
+    color: white;
+    text-align: center;
+}
+
+.avatar{
+    float: right;
+}
+
+.starwars{
+    
+    background: linear-gradient(to right, purple, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+      

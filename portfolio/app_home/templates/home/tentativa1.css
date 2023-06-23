@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(139deg, #121212 0%, #02164b 100%);
+   
+}
+
+.Elipse{
+        width: 30px;
+        height: 504px;
+        transform: rotate(-17.376deg);
+        position: absolute;
+        flex-shrink: 0;
+        border-radius: 484.304px;
+        opacity: 0.800000011920929;
+        background: linear-gradient(180deg, rgba(0, 194, 255, 0.00) 0%, #ff29c2 100%);
+        filter: blur(100px);
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.logo-imagem{
+    width: 50px;
+    height: 50px;   
+    background-color: red;
+    border-radius: 25px;   
+}
+
+
+.container-logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-texto{
+    font-family: Helvetica, sans-serif;
+    margin-left: 20px;
+    color: white;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px
+}
+
+.menu li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; /* aumentando area de contato*/
+
+}
+
+.menu li a:hover{
+   background-color: grey;
+
+}
+
+.menu li.aba-ativa{
+    text-decoration: underline #F9FAFB;
+    text-decoration-thickness: 2px;
+
+}
+
+.bio{
+    color: white;
+    font-size: 25px;
+    padding: 10%;
+    padding-bottom: 4%;
+}
+.StarWars{
+    background: linear-gradient(to right, yellow, red);
+    -webkit-background-clip: text; /* Safari, Chrome e outros navegadores baseados em WebKit */
+    -moz-background-clip: text; /* Firefox */
+    background-clip: text;
+    color: transparent; /* Torna o texto transparente */
+}
+
+.Dev{
+    background: linear-gradient(to right, purple, pink);
+    -webkit-background-clip: text; /* Safari, Chrome e outros navegadores baseados em WebKit */
+    -moz-background-clip: text; /* Firefox */
+    background-clip: text;
+    color: transparent; /* Torna o texto transparente */
+
+}
+
+.bio-sub{
+    color: white;
+    font-size: 16px;
+    padding-left: 10%;
+    line-height: 39px;
+    padding-bottom: 2%;
+}
+
+.portfolio a{
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: grey;
+    padding: 0.9%;
+    margin-top: 20%;
+    margin-left: 17%;
+    border-radius: 15%;
+}
+
+
