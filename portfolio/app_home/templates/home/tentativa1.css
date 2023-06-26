@@ -4,24 +4,36 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     background: linear-gradient(139deg, #121212 0%, #02164b 100%);
-   
+    background-size: 200% 200%; 
 }
 
 .Elipse{
-        width: 30px;
+        width: 500px;
         height: 504px;
         transform: rotate(-17.376deg);
         position: absolute;
-        flex-shrink: 0;
-        border-radius: 484.304px;
-        opacity: 0.800000011920929;
-        background: linear-gradient(180deg, rgba(0, 194, 255, 0.00) 0%, #ff29c2 100%);
-        filter: blur(100px);
+        left: 0;
+        border-radius: 4.304px;
+        opacity: 0.8;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #fe7ad9 100%);
+        filter: blur(200px);
 
 }
-
+.BlueElipse{
+    width: 500px;
+    height: 504px;
+    transform: rotate(-17.376deg);
+    position: absolute;
+    right: 0;
+    border-radius: 4.304px;
+    opacity: 0.8;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #7a85fe 100%);
+    filter: blur(200px);
+}
 header{
     width: 100%;
     display: flex;
@@ -31,12 +43,6 @@ header{
 
 }
 
-.logo-imagem{
-    width: 50px;
-    height: 50px;   
-    background-color: red;
-    border-radius: 25px;   
-}
 
 
 .container-logo{
@@ -45,15 +51,12 @@ header{
 
 }
 
-.logo-texto{
-    font-family: Helvetica, sans-serif;
-    margin-left: 20px;
-    color: white;
-}
+
+
 
 .menu li{
     display: inline-block;
-    margin: 0 10px
+    margin: 0px 10px
 }
 
 .menu li a{
@@ -76,11 +79,17 @@ header{
 }
 
 .bio{
-    color: white;
+    color: #F9FAFB;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 5% 0% 1% 10%;
+    width: 70%;
     font-size: 25px;
-    padding: 10%;
-    padding-bottom: 4%;
+    
 }
+
 .StarWars{
     background: linear-gradient(to right, yellow, red);
     -webkit-background-clip: text; /* Safari, Chrome e outros navegadores baseados em WebKit */
@@ -95,28 +104,47 @@ header{
     -moz-background-clip: text; /* Firefox */
     background-clip: text;
     color: transparent; /* Torna o texto transparente */
-
 }
 
 .bio-sub{
-    color: white;
+    color:#e5e7ebf3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 16px;
-    padding-left: 10%;
-    line-height: 39px;
-    padding-bottom: 2%;
+    margin: 5% 0% 4% 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    line-height: 29px;
+    position: relative;
+ 
 }
 
 .portfolio a{
     height: fit-content;
     width: fit-content;
-    color: white;
+    color: black; 
     text-decoration: none;
-    font-size: 25px;
-    background-color: grey;
-    padding: 0.9%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #E5E7EB;
+    padding: 1%;
     margin-top: 20%;
-    margin-left: 17%;
-    border-radius: 15%;
+    margin-left: 10%;
+    border-radius: 1%;
 }
 
+.avatar{
+    position: relative;
+    left: 75%;
+    transform: translateY(-85%); 
+    display: flex;
+    
+    
+    
 
+    
+
+
+}
