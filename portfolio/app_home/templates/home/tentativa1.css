@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,500&display=swap');
 
 body{
     background: linear-gradient(139deg, #121212 0%, #02164b 100%);
@@ -12,30 +13,20 @@ body{
 }
 
 .Elipse{
-        width: 500px;
+        width: 300px;
         height: 504px;
-        transform: rotate(-17.376deg);
+        transform: rotate(-1.376deg);
         position: absolute;
         left: 0;
         border-radius: 4.304px;
         opacity: 0.8;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #fe7ad9 100%);
-        filter: blur(200px);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #870663 100%);
+        filter: blur(60px);
 
 }
-.BlueElipse{
-    width: 500px;
-    height: 504px;
-    transform: rotate(-17.376deg);
-    position: absolute;
-    right: 0;
-    border-radius: 4.304px;
-    opacity: 0.8;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #7a85fe 100%);
-    filter: blur(200px);
-}
+
 header{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,20 +34,15 @@ header{
 
 }
 
-
-
 .container-logo{
     display: flex;
     align-items: center;
 
 }
 
-
-
-
 .menu li{
     display: inline-block;
-    margin: 0px 10px
+    margin: 0px 15px;
 }
 
 .menu li a{
@@ -64,7 +50,6 @@ header{
     text-decoration: none;
     color: white;
     padding: 10px 15px; /* aumentando area de contato*/
-
 }
 
 .menu li a:hover{
@@ -79,14 +64,16 @@ header{
 }
 
 .bio{
+    position: relative;
     color: #F9FAFB;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 36px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    margin: 5% 0% 1% 10%;
+    margin: 5% 0% 0% 10%;
     width: 70%;
     font-size: 25px;
+    line-height: 290%;   
     
 }
 
@@ -112,12 +99,18 @@ header{
     align-items: center;
     justify-content: space-between;
     font-size: 16px;
-    margin: 5% 0% 4% 10%;
+    margin: 3% 0% 4% 10%;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    line-height: 29px;
+    line-height: 225%;
     position: relative;
  
+}
+
+.avatar{
+    position: absolute;
+    left: 60%;
+    top: 25%;
 }
 
 .portfolio a{
@@ -135,16 +128,7 @@ header{
     border-radius: 1%;
 }
 
-.avatar{
-    position: relative;
-    left: 75%;
-    transform: translateY(-85%); 
-    display: flex;
-    
-    
-    
-
-    
-
-
+.logo{
+    position: absolute;
 }
+
