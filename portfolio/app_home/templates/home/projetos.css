@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,500&display=swap');
+
+body{
+    background: linear-gradient(139deg, #121212 0%, #02164b 100%);
+    
+}
+
+.Elipse{
+        width: 300px;
+        height: 504px;
+        transform: rotate(-1.376deg);
+        position: absolute;
+        left: 0;
+        border-radius: 4.304px;
+        opacity: 0.8;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #870663 100%);
+        filter: blur(60px);
+
+}
+
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.menu li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; /* aumentando area de contato*/
+}
+
+.menu li a:hover{
+   background-color: grey;
+
+}
+
+.menu li.aba-ativa{
+    text-decoration: underline #F9FAFB;
+    text-decoration-thickness: 2px;
+}
+.logo{
+    position: absolute;
+    position: relative; 
+}
+
+.cards{
+    margin: 5% 10% 30% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+   
+
+}
+
+.cards .card {
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+
+}
+
+.cards .card img {
+    transition: 0.5s;
+}
+
+.cards .card h1{
+    color: white;
+    font-size: 2rem;
+
+}
+
+.cards .card .content{
+    padding: 20px;
+    text-align: center;
+}
+
+.cards .card .content p{
+    display: none;
+    position: relative;
+    color: brown;
+    transition: 0.5s;
+    
+}
+
+.cards .card a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+
+}
+
+.cards .card:hover{
+    background-color: #870663;
+    color: white;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px black;
+    border-color: #870663;
+    
+}
+
+.cards .card:hover .content p{
+    display: block;
+    color: white;
+    
+}
+.cards .card:hover .content a{
+    display: block;
+    color: white;
+}
