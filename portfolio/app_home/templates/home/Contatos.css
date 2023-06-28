@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,500&display=swap');
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(139deg, #121212 0%, #02164b 100%);
+    
+}
+
+.Elipse{
+        width: 300px;
+        height: 504px;
+        transform: rotate(-1.376deg);
+        position: absolute;
+        left: 0;
+        border-radius: 4.304px;
+        opacity: 0.8;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #870663 100%);
+        filter: blur(60px);
+
+}
+
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+
+}
+
+@media (max-width: 768px){
+/* Estilos para dispositivos com largura máxima de 768px */
+    header {
+    flex-direction: column;
+  }
+
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.menu li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; /* aumentando area de contato*/
+}
+
+.menu li a:hover{
+   background-color: grey;
+
+}
+
+.menu li.aba-ativa{
+    text-decoration: underline #F9FAFB;
+    text-decoration-thickness: 2px;
+}
+.logo{
+    position: absolute;
+    position: relative; 
+}
+
+
+.container-central {
+    margin: 7% 0% 0% 10%;
+    height: 50vh;
+    width: 150vh;
+    display: inline-block;
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+}
+
+.container-central .content {
+    width: 100%; /* Ocupa a largura total da .container-central */
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center;
+}
+
+.container-central h1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.702);
+    text-align: center;
+    font-size: 56px;
+    font-family: Work Sans;
+    font-weight: lighter;
+    line-height: 150%;
+    letter-spacing: -1.12px;
+
+}
+.conversar{
+    margin-left: 3%;
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-family: Work Sans;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: -1.12px;
+    
+}
+
+.container-central h2 {
+    display: flex;
+    width: 100%; /* Ocupa a largura total da .container-central */
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: lighter;
+    line-height: 150%;
+
+}
+
+.contatos ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+
+.gitlogo{
+    max-width: 30%;
+    max-height: 30%;
+}

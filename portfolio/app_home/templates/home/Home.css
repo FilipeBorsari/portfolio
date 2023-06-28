@@ -127,6 +127,10 @@ header{
     margin-left: 10%;
     border-radius: 1%;
 }
+.portfolio a:hover{
+    
+    background-color: grey;
+}
 
 .logo{
     position: absolute;
